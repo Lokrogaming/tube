@@ -3,6 +3,7 @@
 .
 ├── README.md
 ├── STRUCTURE.md
+├── components.json
 ├── eslint.config.js
 ├── index.html
 ├── package-lock.json
@@ -18,6 +19,7 @@
 │   │   ├── App.jsx
 │   │   ├── Footer.jsx
 │   │   ├── Hero.jsx
+│   │   ├── Nav.jsx
 │   │   ├── Navbar.jsx
 │   │   └── Ticker.jsx
 │   ├── index.css
@@ -31,8 +33,8 @@
 ├── update-readme.sh
 └── vite.config.js
 
-5 directories, 25 files
+5 directories, 27 files
 ```
 
 
-🕒 Last update: 2026-05-29 20:51:56
+🕒 Last update: 2026-05-29 21:29:08
