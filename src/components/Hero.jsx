@@ -18,7 +18,7 @@ export default function Hero() {
          <Sparkles />  Stunning Designs
         </span>
 
-        <h1 className="mt-8 text-6xl font-black text-black">
+        <h1 className="mt-8 text-6xl text-black font-black">
           ELEVEN (Shanghai)
         </h1>
 
