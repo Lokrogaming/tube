@@ -74,3 +74,5 @@ shareCurrentUrl({
 ##
 
 #
+
+https://count.getloli.com/@eleven-shanghai?name=eleven-shanghai&theme=e621&padding=7&offset=3&align=center&scale=1&pixelated=1&darkmode=1
