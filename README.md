@@ -8,7 +8,7 @@
 
 ## About Lokrogaming:
 
-![Stats](https://github-readme-stats.vercel.app/api?username=Lokrogamer&show_icons=true)</br>
+![Stats](https://github-readme-stats.vercel.app/api?username=Lokrogaming&show_icons=true)</br>
 ##  📋 Versions
 
 ```text
