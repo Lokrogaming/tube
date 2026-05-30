@@ -1,4 +1,14 @@
-# 📋 Versions
+# ELEVEN (Shanghai) Website
+![Logo](/public/logo.png)
+
+![Stars](https://img.shields.io/github/stars/Lokrogaming/eleven-shanghai)
+![Stats](https://github-readme-stats.vercel.app/api?username=DEIN_USERNAME&show_icons=true)
+![Languages](https://img.shields.io/github/languages/count/USERNAME/REPO)
+![Top Language](https://img.shields.io/github/languages/top/USERNAME/REPO)
+![Last Commit](https://img.shields.io/github/last-commit/USERNAME/REPO)
+
+
+##  📋 Versions
 
 ```text
 Versions:
@@ -18,9 +28,9 @@ Versions:
  
 ```
 
-# Hooks
+##  Hooks
 
-## useHooks
+###  useHooks
   
 Basic Share Button: 
 ```jsx
@@ -71,8 +81,6 @@ shareCurrentUrl({
 });
 ```
 
-##
-
-#
+## Visitors
 
 https://count.getloli.com/@eleven-shanghai?name=eleven-shanghai&theme=e621&padding=7&offset=3&align=center&scale=1&pixelated=1&darkmode=1

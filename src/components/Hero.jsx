@@ -14,9 +14,9 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto px-6 text-center">
 
-        <span className="bg-transparent gap-3 flex flex-row border border-black shadow-sm shadow-black-300 text-black-700 px-4 py-2 rounded-full">
+        <Badge variant="solid" color="cyan" radius="large">
          <Sparkles />  Stunning Designs
-        </span>
+        </Badge>
 
         <h1 className="mt-8 text-6xl text-black font-black">
           ELEVEN (Shanghai)
