@@ -49,38 +49,33 @@ export default function Home() {
        <Divider />
       <section className="my-10 mx-3 flex flex-col items-center">
        <p className="text-2xl font-bold text-black">Our Services</p>
-    <div className="overflow-x-auto">
-      <table className="p-6 min-w-[700px] border border-black/20 rounded-xl overflow-hidden">
-        <thead className="bg-black text-[yellow]">
-          <tr>
-            <th className="text-left p-4">Name</th>
-            <th className="text-left p-4">Communication & Sales</th>
-            <th className="text-left p-4">Design of the country pavilion</th>
-            <th className="text-left p-4">Product Management</th>
-            <th className="text-left p-4">Construction and Materials</th>
-            <th className="text-left p-4">Productipn And Construction Of Aluminium Steel Structures</th>
-            <th className="text-left p-4">Power</th>
-            <th className="text-left p-4">ICT And Security Systems</th>
-            <th className="text-left p-4">HVAC</th>
-          </tr>
-        </thead>
+       
+       <ul className="list-style-type-disc">
 
-        <tbody className="bg-[#001111] text-[yellow]">
-          <tr className="border-t border-black/30 hover:bg-black/30 transition">
-            <td className="p-4"></td>
-            <td className="p-4">CEO</td>
-            <td className="p-4 text-green-400">Active</td>
-          </tr>
+      <li><p className="text-xl font-bold">Communication & Sales</p></li>
+      <li><p className="text-lg font-bold"> 1stLine of Engagement</p></li>
 
-          <tr className="border-t border-black/30 hover:bg-black/30 transition">
-            <td className="p-4">Support Team</td>
-            <td className="p-4">Support</td>
-            <td className="p-4 text-yellow-400">Pending</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  
+ <li>To engage exhibitors as soon as possible</li>
+<li>To confirm exhibitors’ participation</li>
+ <li>To provide exhibitor’s manual</li>
+<li>To provide hall & booth space layout</li>
+
+ To confirm type of booth construction
+
+ To process deposits for booth space booking
+
+<li><p className="text-lg font-bold">2nd Line of Engagement</p></li>
+
+ To promote Design & Build Services
+
+ To assist with taking of design brief
+
+ To assist with exhibition 
+ To confirm type of booth constructionrelated matters
+
+ To assist with any other requirements like travel
+        
+         </ul>
       </section>
     </>
   );
