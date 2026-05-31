@@ -48,34 +48,33 @@ export default function Home() {
       </section>
        <Divider />
       <section className="my-10 mx-3 flex flex-col items-center">
-       <p className="text-2xl font-bold text-black">Our Services</p>
-       
-       <ul className="list-style-type-disc">
+       <p className="my-7 text-2xl font-bold text-black">Our Services</p>
+      <div className="max-w-[75%] border border-black rounded-xl p-5 bg-black transition-transform duration-300 ease-in-out hover:scale-103 hover:-translate-y-1 "> 
 
-      <li><p className="text-xl font-bold">Communication & Sales</p></li>
-      <li><p className="text-lg font-bold"> 1stLine of Engagement</p></li>
+        <div className="p-3 my-2">
+<p className="text-yellow-300 border-b border-grey-300 text-2xl font-bold hover:border-white transition-transform duration-300 ease-in-out p-5">Communication & Sales</p>
+          </div>
+       <ul className="list-disc flex flex-col mx-5 my-7 text-white gap-5">
 
- <li>To engage exhibitors as soon as possible</li>
-<li>To confirm exhibitors’ participation</li>
- <li>To provide exhibitor’s manual</li>
-<li>To provide hall & booth space layout</li>
+<li className="mt-5 mb-3"><p className="text-lg font-bold"> 1stLine of Engagement</p></li>
 
- To confirm type of booth construction
+<li>To engage exhibitors as soon as possible</li>
+<li>To confirm exhibitors’ participation</li>
+<li>To provide exhibitor’s manual</li>
+<li>To provide hall & booth space layout</li>
+<li>To confirm type of booth construction</li>
+<li>To process deposits for booth space booking</li>
 
- To process deposits for booth space booking
+<li className="mt-5 mb-3"><p className="text-lg font-bold">2nd Line of Engagement</p></li>
 
-<li><p className="text-lg font-bold">2nd Line of Engagement</p></li>
-
- To promote Design & Build Services
-
- To assist with taking of design brief
-
- To assist with exhibition 
- To confirm type of booth constructionrelated matters
-
- To assist with any other requirements like travel
+<li>To promote Design & Build Services</li>
+<li>To assist with taking of design brief</li>
+<li>To assist with exhibition</li>
+<li>To confirm type of booth constructionrelated matters</li>
+<li>To assist with any other requirements like travel</li>
         
          </ul>
+       </div>
       </section>
     </>
   );
