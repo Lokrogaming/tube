@@ -17,4 +17,13 @@ await page.screenshot({
   fullPage: true
 });
 
+await page.goto('http://localhost:3000/team', {
+  waitUntil: 'networkidle'
+});
+
+await page.screenshot({
+  path: 'screenshots/team.png',
+  fullPage: true
+})
+
 await browser.close();

@@ -52,8 +52,8 @@ export default function Hero() {
           text: "From the first sketch to the last brick",
         })
       } 
-  className="text-black text-lg transition duration-150 ease-in-out hover:scale-105 hover:border-b hover:border-black"
-       ><Share2 />
+  className="text-black text-lg transition-transform duration-300 ease-in-out hover:scale-110 hover:border-b hover:border-black">
+<Share2 />
 </button> 
           
 
