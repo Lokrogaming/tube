@@ -60,7 +60,7 @@ jobs:
             fullPage: true
           });
 
-          await page.goto('http://localhost:3000/team', {>
+          await page.goto('http://localhost:3000/team', {
             waitUntil: 'networkidle'
           });
 
