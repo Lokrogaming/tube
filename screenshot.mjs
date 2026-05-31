@@ -24,6 +24,6 @@ await page.goto('http://localhost:3000/team', {
 await page.screenshot({
   path: 'screenshots/team.png',
   fullPage: true
-})
+});
 
 await browser.close();
