@@ -27,19 +27,15 @@ export default function Hero() {
     w-30
   "
 >
-  <img
-    src="/logo.png"
-    alt="Eleven Logo"
-    className="h-5 w-auto"
-  />
+ <p className="text-xl text-white font-bold">JSX Template</p>
 </span>
 
         <h1 className="mt-8 text-6xl text-black font-black">
-          ELEVEN (Shanghai)
+          Example Site
         </h1>
 
         <p className="mt-6 text-slate-400 text-lg max-w-2xl mx-auto">
-          Many projects around the world, featuring the Azerbaijan Pavilion at the Expo 2025 and many more! 
+         Copy the code from GitHub!
         </p>
 
         <div className="mt-10 flex justify-center gap-4">
@@ -48,8 +44,8 @@ export default function Hero() {
           </button>
           <button onClick={() =>
         shareCurrentUrl({
-          title: "Eleven (Shanghai)",
-          text: "From the first sketch to the last brick",
+          title: "JSX Template",
+          text: "Some Text",
         })
       } 
   className="text-black text-lg transition-transform duration-300 ease-in-out hover:scale-110 hover:border-b hover:border-black">
