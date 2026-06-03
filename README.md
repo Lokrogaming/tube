@@ -1,10 +1,10 @@
 # Website Template with react
 ![Logo](/public/logo.png)
 
-![Stars](https://img.shields.io/github/stars/Lokrogaming/jsxtemplate1) &nbsp;
-![Languages](https://img.shields.io/github/languages/count/Lokrogaming/jsxtemplate1) &nbsp;
-![Top Language](https://img.shields.io/github/languages/top/Lokrogaming/jsxtemplate1) &nbsp;
-![Last Commit](https://img.shields.io/github/last-commit/Lokrogaming/jsxtemplate1) &nbsp;
+![Stars](https://img.shields.io/github/stars/Lokrogaming-Inc/jsxtemplate1) &nbsp;
+![Languages](https://img.shields.io/github/languages/count/Lokrogaming-Inc/jsxtemplate1) &nbsp;
+![Top Language](https://img.shields.io/github/languages/top/Lokrogaming-Inc/jsxtemplate1) &nbsp;
+![Last Commit](https://img.shields.io/github/last-commit/Lokrogaming-Inc/jsxtemplate1) &nbsp;
 
 
 
