@@ -9,65 +9,56 @@ export default function Navbar() {
     <>
       {/* Desktop Navbar */}
       <nav className="hidden sm:flex items-center justify-between px-6 py-4 bg-black border-b border-[yellow]">
-<Link to="/">        
-      <img
-  src="/logo.png"
-  alt="Eleven"
-  className="h-10 w-auto"
-/></Link>
+<Link to="/"><p className="text-xl font-bold">Template 1</p></Link>
 
         <div className="flex gap-6">
           <Link
       to="/"
-      className="relative text-[yellow] transition-colors duration-300 hover:text-white group"
+      className="relative text-white transition-colors duration-300 hover:text-white group"
     >
       Home
-      <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-yellow-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
+      <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-blue-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
     </Link>
 
     <Link
       to="/projects"
-      className="relative text-[yellow] transition-colors duration-300 hover:text-white group"
+      className="relative text-white transition-colors duration-300 hover:text-white group"
     >
       Projects
-      <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-yellow-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
+      <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-blue-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
     </Link>
 
     <Link
       to="/about"
-      className="relative text-[yellow] transition-colors duration-300 hover:text-white group"
+      className="relative text-white transition-colors duration-300 hover:text-white group"
     >
       About us
-      <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-yellow-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
+      <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-blue-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
     </Link>
 
     <Link
       to="/team"
-      className="relative text-[yellow] transition-colors duration-300 hover:text-white group"
+      className="relative text-white transition-colors duration-300 hover:text-white group"
     >
       Our Team
-      <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-yellow-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
+      <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-blue-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
     </Link>
 
     <Link
       to="/contact"
-      className="relative text-[yellow] transition-colors duration-300 hover:text-white group"
+      className="relative text-white transition-colors duration-300 hover:text-white group"
     >
       Contact
-      <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-yellow-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
+      <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-blue-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
     </Link>
         </div>
       </nav>
 
       {/* Mobile Navbar */}
-      <nav className="sm:hidden flex items-center justify-between px-4 py-4 bg-black border-b border-[yellow]">
+      <nav className="sm:hidden flex items-center justify-between px-4 py-4 bg-black border-b border-white">
 
 <Link to="/">        
-<img
-  src="/logo.png"
-  alt="Eleven"
-  className="h-10 w-auto"
-/>
+<p>Template 1</p>
 </Link>
 
         <button
@@ -92,7 +83,7 @@ export default function Navbar() {
           fixed top-0 right-0
           h-full w-72
           bg-black
-          border-l border-[yellow]
+          border-l border-white
           z-50
           transition-transform duration-300
           ${open ? "translate-x-0" : "translate-x-full"}
@@ -116,36 +107,36 @@ export default function Navbar() {
   <Link
     to="/"
     onClick={() => setOpen(false)}
-    className="relative w-fit text-[yellow] hover:text-white transition-colors duration-300 group"
+    className="relative w-fit text-white hover:text-white transition-colors duration-300 group"
   >
     Home
-    <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-yellow-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
+    <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-blue-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
   </Link>
 
   <Link
     to="/projects"
     onClick={() => setOpen(false)}
-    className="relative w-fit text-[yellow] hover:text-white transition-colors duration-300 group"
+    className="relative w-fit text-white hover:text-white transition-colors duration-300 group"
   >
     Projects
-    <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-yellow-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
+    <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-blue-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
   </Link>
 
   <Link
     to="/contact"
     onClick={() => setOpen(false)}
-    className="relative w-fit text-[yellow] hover:text-white transition-colors duration-300 group"
+    className="relative w-fit text-white hover:text-white transition-colors duration-300 group"
   >
     Contact
-    <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-yellow-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
+    <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-blue-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
   </Link>
   <Link
     to="/team"
     onClick={() => setOpen(false)}
-    className="relative w-fit text-[yellow] hover:text-white transition-colors duration-300 group"
+    className="relative w-fit text-white hover:text-white transition-colors duration-300 group"
   >
     Our Team
-    <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-yellow-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
+    <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-blue-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
   </Link>
 </div>
       </div>
