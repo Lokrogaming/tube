@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@tailwind utilities;
+
 :root {
    --background: 228 12% 8%;
     --foreground: 210 40% 98%;
@@ -54,29 +54,8 @@
     --sidebar-ring: 235 86% 65%;
   }
 
-  .dark {
-    --background: 228 12% 8%;
-    --foreground: 210 40% 98%;
-    --card: 228 12% 11%;
-    --card-foreground: 210 40% 98%;
-    --popover: 228 12% 11%;
-    --popover-foreground: 210 40% 98%;
-    --primary: 235 86% 65%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 228 12% 18%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 228 12% 15%;
-    --muted-foreground: 215 20% 60%;
-    --accent: 235 86% 65%;
-    --accent-foreground: 0 0% 100%;
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
-    --border: 228 12% 20%;
-    --input: 228 12% 18%;
-    --ring: 235 86% 65%;
-  }
   
-}
+
 
 @theme {
 --color-primary: #ffc900;
@@ -140,8 +119,7 @@
   100% {
     transform: translate(0px, 0px) scale(1);
   }
-}
-@layer utilities {
+} 
   .text-gradient-primary {
     background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(280 80% 65%) 100%);
     -webkit-background-clip: text;
@@ -155,4 +133,4 @@
       hsl(235 30% 12%) 50%,
       hsl(var(--background)) 100%);
   }
-}
+
