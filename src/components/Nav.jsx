@@ -10,13 +10,13 @@ export default function Navbar() {
       {/* Desktop Navbar */}
       <div className="relative">
   <div className="absolute inset-x-0 -bottom-3 h-6 bg-gradient-to-r from-blue-500 via-cyan-400 to-purple-500 blur-xl opacity-60"></div>
-      <nav className="hidden sm:flex items-center justify-between px-6 py-4 bg-black border-b border-blue-850">
-<Link to="/"><p className="text-xl font-bold">Template 1</p></Link>
+      <nav className="hidden sm:flex items-center justify-between px-6 py-4 bg-black border-b border-blue-850 h-20">
+<Link to="/"><p className="text-2xl text-white font-bold">Template 1</p></Link>
 
         <div className="flex gap-6">
           <Link
       to="/"
-      className="relative text-white transition-colors duration-300 hover:text-white group"
+      className="relative text-xl font-bold text-white transition-colors duration-300 hover:text-white group"
     >
       Home
       <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-blue-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
@@ -24,7 +24,7 @@ export default function Navbar() {
 
     <Link
       to="/projects"
-      className="relative text-white transition-colors duration-300 hover:text-white group"
+      className="relative text-xl font-bold text-white transition-colors duration-300 hover:text-white group"
     >
       Projects
       <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-blue-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
@@ -32,7 +32,7 @@ export default function Navbar() {
 
     <Link
       to="/about"
-      className="relative text-white transition-colors duration-300 hover:text-white group"
+      className="relative text-xl font-bold text-white transition-colors duration-300 hover:text-white group"
     >
       About us
       <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-blue-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
@@ -40,7 +40,7 @@ export default function Navbar() {
 
     <Link
       to="/team"
-      className="relative text-white transition-colors duration-300 hover:text-white group"
+      className="relative text-xl font-bold text-white transition-colors duration-300 hover:text-white group"
     >
       Our Team
       <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-blue-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
@@ -48,7 +48,7 @@ export default function Navbar() {
 
     <Link
       to="/contact"
-      className="relative text-white transition-colors duration-300 hover:text-white group"
+      className="relative text-xl font-bold text-white transition-colors duration-300 hover:text-white group"
     >
       Contact
       <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-blue-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
@@ -62,7 +62,7 @@ export default function Navbar() {
   {/* Gradient Shadow */}
   <div className="absolute inset-x-0 -bottom-3 h-6 bg-gradient-to-r from-blue-500 via-cyan-400 to-purple-500 blur-xl opacity-60"></div>
 
-  <nav className="relative flex items-center justify-between px-4 py-4 bg-black border-b border-white">
+  <nav className="relative flex text-xl font-bold items-center justify-between px-4 py-4 bg-black border-b border-white text-white">
     <Link to="/">
       <p>Template 1</p>
     </Link>
@@ -97,7 +97,7 @@ export default function Navbar() {
         `}
       >
         <div className="flex items-center justify-between p-4 border-b border-slate-800">
-          <h2 className="text-white font-bold">
+          <h2 className="text-white text-xl font-bold">
             Menu
           </h2>
 
@@ -114,7 +114,7 @@ export default function Navbar() {
   <Link
     to="/"
     onClick={() => setOpen(false)}
-    className="relative w-fit text-white hover:text-white transition-colors duration-300 group"
+    className="relative w-fit text-xl font-bold text-white hover:text-white transition-colors duration-300 group"
   >
     Home
     <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-blue-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
@@ -123,7 +123,7 @@ export default function Navbar() {
   <Link
     to="/projects"
     onClick={() => setOpen(false)}
-    className="relative w-fit text-white hover:text-white transition-colors duration-300 group"
+    className="relative w-fit text-xl font-bold text-white hover:text-white transition-colors duration-300 group"
   >
     Projects
     <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-blue-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
@@ -132,7 +132,7 @@ export default function Navbar() {
   <Link
     to="/contact"
     onClick={() => setOpen(false)}
-    className="relative w-fit text-white hover:text-white transition-colors duration-300 group"
+    className="relative w-fit text-xl font-bold text-white hover:text-white transition-colors duration-300 group"
   >
     Contact
     <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-blue-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
@@ -140,7 +140,7 @@ export default function Navbar() {
   <Link
     to="/team"
     onClick={() => setOpen(false)}
-    className="relative w-fit text-white hover:text-white transition-colors duration-300 group"
+    className="relative w-fit text-xl font-bold text-white hover:text-white transition-colors duration-300 group"
   >
     Our Team
     <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-blue-300 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />

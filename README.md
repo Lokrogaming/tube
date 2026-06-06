@@ -1,5 +1,7 @@
 # Website Template with react
-![Logo](/public/logo.png)
+
+
+![Logo](/public/favicon.svg)<br><br>
 
 ![Stars](https://img.shields.io/github/stars/Lokrogaming-Inc/jsxtemplate1) &nbsp;
 ![Languages](https://img.shields.io/github/languages/count/Lokrogaming-Inc/jsxtemplate1) &nbsp;
@@ -7,11 +9,14 @@
 ![Last Commit](https://img.shields.io/github/last-commit/Lokrogaming-Inc/jsxtemplate1) &nbsp;
 
 
+# Languages
+[![Languages](https://skillicons.dev/icons?i=vite,tailwind,svg,react,npm,nodejs,md,html,githubactions,github,git,bash,css&theme=dark)](https://skillicons.dev)
 
 
 | Version      | Key-Features | Date   | Supported
 |-----------|--------------|----------|---------|
 | V0.7.0    | Initial Commit       | 3.6.2026   | ✅️ |
+| V1.0.0    | Fixed and changed style Theme | 6.6.2026 | ✅ | 
 
 
 
@@ -76,4 +81,4 @@ shareCurrentUrl({
 
 ## Visitors
 
-![Visitors](https://count.getloli.com/@lokrogaming-jsxtemplate1?name=eleven-shanghai&theme=e621&padding=7&offset=3&align=center&scale=1&pixelated=0&darkmode=1)
+![Visitors](https://count.getloli.com/@lokrogaming-jsxtemplate1?name=Lokrogaming&theme=3d-num&padding=7&offset=3&align=center&scale=1.5&pixelated=0&darkmode=1)

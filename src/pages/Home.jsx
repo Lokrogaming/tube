@@ -20,7 +20,7 @@ export default function Home() {
             key={person.id}
             className="relative"
             >
-  <div className="absolute inset-x-0 h-6 -right-6 bg-gradient-to-r from-blue-500 via-cyan-400 to-purple-500 blur-xl opacity-60"></div>
+  <div className="absolute inset-x-0 h-6 bg-gradient-to-r from-blue-500 via-cyan-400 to-purple-500 blur-xl opacity-60"></div>
             <div className="bg-slate-800 p-6 rounded-2xl">
               <h3 className="text-white font-bold text-xl">
                 {person.name}
@@ -42,7 +42,7 @@ export default function Home() {
       </section>
        <Divider />
       <section className="my-10 mx-3 flex flex-col items-center">
-       <p className="mb-7 text-2xl font-bold text-white">Our Services</p>
+       <p className="mb-7 text-5xl font-bold text-white">Our Services</p>
 <div className="grid gris-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-8">
       {/* list-none [COPY THIS DESIGN AND PASTE IT FOR ALL YOUR CARDS]*/}
       <div className="w-90 lg:w-280 border border-black rounded-xl p-5 bg-black transition-transform duration-300 ease-in-out hover:scale-103 hover:-translate-y-1 "> 
