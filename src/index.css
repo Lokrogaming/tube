@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-   --background: 228 12% 8%;
+   --background: 352 0% 56.9%;
     --foreground: 210 40% 98%;
 
     --card: 228 12% 11%;
@@ -134,5 +134,13 @@
       hsl(235 30% 12%) 50%,
       hsl(var(--background)) 75%,
       hsl(235 30% 12%) 100%);
+  }
+.bg-gradient-main {
+    background: linear-gradient(180deg,
+      hsl(352 1.3% 65.4%)0%,
+      hsl(var(--background)) 25%,
+      hsl(352 1.3% 65.4%) 50%,
+      hsl(var(--background)) 75%,
+      hsl(352 1.3% 65.4%) 100%);
   }
 

@@ -14,26 +14,16 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto px-6 text-center">
 
-        <span
-  className="
-    inline-flex
-    items-center
-    justify-center
-    border
-    border-black
-    rounded-full
-    px-4
-    py-2
-    w-40
-  "
->
- <p className="text-xl text-white font-bold">JSX Template</p>
-</span>
-
+        
         <h1 className="mt-8 h-40 sm:h-20 text-6xl font-bold text-gradient-primary">
           Example Site
         </h1>
-
+        <div className="rounded-md border-dashed border-gray-800 bg-gray-700 flex justify-center items-center w-50 h-50>
+        <img src="/logo.png" className="dark:hidden">
+        <img src="/logo-dark.png" className="dark:flex">
+        
+        
+        </div>
         <p className="mt-6 text-slate-400 text-lg max-w-2xl mx-auto">
          Copy the code from GitHub!
         </p>
