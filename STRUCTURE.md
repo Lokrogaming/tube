@@ -10,18 +10,19 @@
 ├── package.json
 ├── public
 │   ├── favicon.svg
-│   ├── icons.svg
-│   └── logo.png
+│   └── icons.svg
 ├── push.sh
 ├── screenshot.mjs
 ├── screenshots
+│   ├── about.png
+│   ├── contact.png
 │   ├── home.png
+│   ├── projects.png
 │   └── team.png
 ├── src
 │   ├── App.css
 │   ├── App.jsx
 │   ├── components
-│   │   ├── App.jsx
 │   │   ├── ContactSkeleton.jsx
 │   │   ├── Divider.jsx
 │   │   ├── Footer.jsx
@@ -48,8 +49,8 @@
 ├── update-readme.sh
 └── vite.config.js
 
-9 directories, 38 files
+9 directories, 39 files
 ```
 
 
-🕒 Last update: 2026-06-02 02:05:12
+🕒 Last update: 2026-06-19 10:19:34
